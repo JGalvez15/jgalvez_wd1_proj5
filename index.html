@@ -1,0 +1,96 @@
+<!-- Jason Galvez's HTML 3 -->
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dangerous Animals</title>
+  <style>
+
+  #killerList {background-color: lightblue; color: red;}
+
+  .killer {background-color: red; color: black;}
+
+  </style>
+  <link href="main.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap"
+  rel="stylesheet">
+</head>
+ <body>
+   <div id="box">
+     <header>
+       <h1 title="There are many" style="border: 2px solid blue">
+         Dangerous Animals of the World
+       </h1>
+     </header>
+
+     <i> The Wild is merciless </i> <br>
+
+     <img src="images/danger_sign.png" alt="Alert: DANGEROUS!">
+
+     <h2 title="A list of killing machines" id="killerList">
+      &#9940; <b> BEWARE! </b> &#9940;
+     </h2>
+
+     <nav>
+       <ul>
+         <li class="killer">
+           <a href="hippos.html" title="Aquatic Tanks"> Hippos </a>
+         </li>
+         <li class="killer">
+           <a href="deer.html" title="Accidental Assasins"> Deer </a>
+         </li>
+         <li class="killer" id="unkown"></li>
+       </ul>
+     </nav>
+
+     <h3 title="A table with some info" style="color: hsl(150, 100%, 50%);">
+       Overview
+     </h3>
+
+     <section>
+       <table>
+         <tr>
+           <th>Species</th>
+           <th>Habitats</th>
+           <th>Kills</th>
+         </tr>
+         <tr>
+           <td>Hippopotamus</td>
+           <td>East Africa</td>
+           <td>500-3000 per year</td>
+         </tr>
+         <tr>
+           <td>Deer</td>
+           <td>The Americas, Eurasia, & more</td>
+           <td>200-440 per year</td>
+         </tr>
+       </table>
+     </section>
+
+     <br> <em> Seek out these killers at your own risk </em>
+
+     <article>
+       <p>
+         The beasts mentioned above are not to be triffled with. One wrong
+         move, one bad decision, is all it takes for them to cause your funeral
+         to happen earlier than it should. If you insist on meeting them in
+         person, go to the zoo and/or exercise extreme caution.
+       </p>
+     </article>
+
+     <aside>
+       <img src="images/death_possible.png" alt="They can kill you">
+     </aside>
+
+     <footer> Copyright 2020 &#8482; </footer>
+   </div>
+ </body>
+
+ <script>
+   document.getElementById("unkown").innerHTML = "Discovering new threats...";
+ </script>
+</html>
