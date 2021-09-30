@@ -35,10 +35,8 @@ h1 {
   border: 2px solid blue
 }
 
-i {color: red;}
-
-p {
-  background-color: hsl(9, 100%, 64%);
+p, i, em, b {
+  background-color: red;
   color: black;
 }
 
@@ -53,5 +51,3 @@ th, td, tr {
   padding: 8px;
   background-color: #dddddd;
 }
-
-em {color: red;}
