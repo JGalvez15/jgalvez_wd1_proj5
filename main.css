@@ -37,7 +37,10 @@ h1 {
 
 i {color: red;}
 
-p {background-color: hsl(9, 100%, 64%);}
+p {
+  background-color: hsl(9, 100%, 64%);
+  color: black;
+}
 
 table {
   border-collapse: collapse;
