@@ -35,6 +35,12 @@ h1 {
   border: 2px solid blue
 }
 
+h2 {
+  font-family: 'Prompt', sans-serif;
+  font-style: normal;
+  color: red;
+}
+
 p, i, em, b {
   background-color: red;
   color: black;

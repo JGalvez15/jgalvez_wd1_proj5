@@ -21,18 +21,15 @@
 </head>
  <body>
    <div id="Titlecard">
-     <div></div>
+     <div><img src="images/danger_sign.png" alt="Alert: DANGEROUS!"></div>
      <div>
        <h1 title="There are many">
          Dangerous Animals of the World
        </h1>
        <i> The Wild is merciless </i>
      </div>
-     <div></div>
+     <div><img src="images/death_possible.png" alt="They can kill you"></div>
      <div class="flex-container">
-       <div>
-         <img src="images/danger_sign.png" alt="Alert: DANGEROUS!">
-       </div>
        <div>
          <h2 title="A list of killing machines" id="killerList">
           &#9940; <b> BEWARE! </b> &#9940;
@@ -79,7 +76,35 @@
          </p>
        </div>
        <div>
-         <img src="images/death_possible.png" alt="They can kill you">
+         <form>
+           <label for="rating">
+             Please rate this site from 1-5 (lowest-highest):
+           </label>
+           <input type="number" id="rating" name="rating" min="1" max="5"><br>
+
+           <input type="radio" id="yes" name="reccomend"
+           value="I would reccomend this site">
+           <label for="yes">I would reccomend this site to others</label><br>
+           <input type="radio" id="yes" name="reccomend"
+           value="I would not reccomend this site">
+           <label for="yes">I would not reccomend this site to others</label>
+           <br><input type="radio" id="yes" name="reccomend"
+           value="I might reccomend this site">
+           <label for="yes">I might reccomend this site to others</label><br>
+
+           <label for="suggest">Suggest an animal to add to the site:</label>
+           <br><input type="text" id="suggest" name="suggest">
+
+           <input type="submit" value="Submit">
+         </form>
+       </div>
+       <div>
+         <p>Check out the inspiration for this site!</p>
+         <iframe width="560" height="315"
+         src="https://www.youtube.com/embed/nvika2cFiq0" title="YouTube video
+         player" frameborder="0" allow="accelerometer; autoplay;
+         clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen></iframe>
        </div>
        <div> <p> Copyright 2021 &#8482; </p> </div>
      </div>
