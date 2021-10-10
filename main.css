@@ -41,7 +41,7 @@ h2 {
   color: red;
 }
 
-p, i, em, b {
+p, i, em, b, form {
   background-color: red;
   color: black;
 }
